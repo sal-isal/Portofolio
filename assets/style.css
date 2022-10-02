@@ -1,0 +1,217 @@
+:root {
+  --blue: #03045E;
+  --teal: #00B4D8;
+  --white: #ffffff;
+  --red: #FF4141;
+  --cannary: #FFD059;
+  --gray: #5F86B4;
+  --willow: #76C05C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #dff2ff;
+}
+
+/* Header */
+#main-header {
+  background-color: var(--teal);
+  height: 92vh;
+}
+
+#arrow-down {
+  cursor: pointer;
+  top: 80%;
+  font-size: 50px;
+}
+
+.img-header {
+  width: 1000px;
+}
+
+/* Front End */
+#front-end,
+#back-end,
+#database {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card-size {
+  width: 85%;
+}
+
+.about-detail {
+  margin: 50px 0;
+}
+
+
+/* Memphis */
+.memphis-layer img {
+  width: 5vw;
+}
+
+.memphis-layer [class^='memphis-'] {
+  position: absolute !important;
+  pointer-events: none;
+}
+
+.memphis-1 {
+  top: 500;
+}
+
+.memphis-2 {
+  top: 100;
+  left: 60vw;
+}
+
+.memphis-3 {
+  top: 100;
+}
+
+/* Color */
+.bg-blue {
+  color: #fff;
+  background-color: var(--blue) !important;
+}
+
+.bg-red {
+  color: #fff !important;
+  background-color: var(--red) !important
+}
+
+.bg-teal {
+  color: #fff !important;
+  background-color: var(--teal) !important
+}
+
+.bg-cannary {
+  color: #fff !important;
+  background-color: var(--cannary) !important
+}
+
+.bg-gray {
+  color: #fff !important;
+  background-color: var(--gray) !important
+}
+
+.bg-willow {
+  color: #fff !important;
+  background-color: var(--willow) !important
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+
+.text-teal {
+  color: var(--teal) !important;
+}
+
+.text-red {
+  color: var(--red) !important; 
+}
+
+.text-cannary {
+  color: var(--cannary) !important; 
+}
+
+.text-gray {
+  color: var(--gray) !important; 
+}
+
+.text-willow {
+  color: var(--willow) !important; 
+}
+
+.border-teal {
+  border-color: var(--teal) !important;
+}
+
+/* Text */
+.text-1 {
+  font-size: 32px;
+}
+
+.text-2{
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.about-font {
+  font-size: 26px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 992px){
+  .text-1 {
+      font-size: 24px;
+  }
+
+  #img-header {
+    width: 100% !important;
+  }
+
+  .about-font {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-1 {
+    font-size: 24px;
+  }
+
+  #img-header {
+    width: 50% !important;
+  }
+
+  #img-head-container {
+    margin: 20px 0;
+    justify-content: center !important;
+  }
+
+  #text-head-container {
+    text-align: center;
+  }
+
+  .memphis-1 {
+    top: 500;
+  }
+
+  .memphis-2 {
+    top: 50;
+    left: 80vw;
+  }
+
+  .memphis-3 {
+    top: 50;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .text-1 {
+    font-size: 18px;
+  }
+
+  .porto-items {
+    gap: 10px;
+  }
+
+  .about-font {
+    font-size: 12px;
+  }
+}
